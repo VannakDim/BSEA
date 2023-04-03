@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "./static/css/main.9532eeb4.css",
+    "main.js": "./static/js/main.99696fa3.js",
+    "static/media/bsea-logo.png": "./static/media/bsea-logo.602a4888ca43ec97101a.png",
+    "index.html": "./index.html",
+    "main.9532eeb4.css.map": "./static/css/main.9532eeb4.css.map",
+    "main.99696fa3.js.map": "./static/js/main.99696fa3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9532eeb4.css",
+    "static/js/main.99696fa3.js"
+  ]
+}
