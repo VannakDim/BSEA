@@ -30,7 +30,7 @@ function Team (){
                             <div className="team-item">
                                 <h5>{team.name}</h5>
                                 <p className="mb-4">{team.position}</p>
-                                <img className="img-fluid team rounded-circle w-100 mb-4" src={team.imgPath} alt="profile photo" />
+                                <img className="img-fluid team rounded-circle w-100 mb-4" src={team.imgPath} alt="profile" />
                                 <div className="d-flex justify-content-center">
                                     <a className="btn btn-square text-primary bg-white m-1" href={team.fb}><i className="fab fa-facebook-f"></i></a>
                                     <a className="btn btn-square text-primary bg-white m-1" href=""><i className="fab fa-twitter"></i></a>

@@ -2,8 +2,8 @@ const express =require ("express");
 const authRoutes =require ("./routes/auth.js")
 const aboutRoutes =require ("./routes/about.js")
 const teamRoutes =require ("./routes/team.js")
+const caroRoutes =require ("./routes/carousel.js")
 const multer =require ("multer");
-const about  =require ("./controllers/about.js");
 const cors = require("cors");
 require('dotenv').config()
 
@@ -35,6 +35,7 @@ app.post('/upload', upload.single('file'), function (req,res){
 app.use("/auth", authRoutes)
 app.use("/about", aboutRoutes)
 app.use("/team", teamRoutes)
+app.use("/caro", caroRoutes)
 
 app.listen(port, () => {
     console.log(`API app listening on port ${port}!`)
